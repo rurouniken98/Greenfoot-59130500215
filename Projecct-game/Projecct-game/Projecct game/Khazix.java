@@ -12,8 +12,23 @@ public class Khazix extends Enemy
      * Act - do whatever the Khazix wants to do. This method is called whenever
      * the 'Act' or 'Run' button gets pressed in the environment.
      */
-    public void act() 
+     public void act() 
     {
-        // Add your action code here.
-    }    
+        move(-2);
+        if(isAtEdge()){
+         Arena.YasuoLife--;
+         ArenaMed.YasuoLife--;
+         ArenaHard.YasuoLife--;
+         
+       
+        getWorld().removeObject(this);
+    }
+    else if(isTouching(Yasuo.class)){
+        Arena.YasuoLife--;
+        ArenaMed.YasuoLife--;
+        ArenaHard.YasuoLife--;
+        
+        getWorld().removeObject(this);
+    }
+}
 }

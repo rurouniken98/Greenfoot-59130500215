@@ -6,14 +6,14 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class Survive extends World
+public class SurviveMed extends World
 {
 
     /**
      * Constructor for objects of class Survive.
      * 
      */
-    public Survive()
+    public SurviveMed()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1013, 569, 1); 
@@ -21,10 +21,11 @@ public class Survive extends World
         Play();
     }
     public void act(){
-        showText("score :"+(Arena.score),(645),(245)) ;
-        showText("Max Combo : = "+(Arena.maxCombo),(630),(291)) ;
+        showText("score :"+(ArenaMed.score),(645),(245)) ;
+        showText("Max Combo : = "+(ArenaMed.maxCombo),(630),(291)) ;
     }
-     public void Play (){
+    
+    public void Play (){
         Greenfoot.playSound("VOL - Yasuo laugh 1 (English).mp3");
     }
 }

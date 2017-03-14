@@ -20,5 +20,9 @@ public class StageSelect extends World
         addObject(new Easy () , 238 , 340);
         addObject(new Med () , 238 , 438);
         addObject(new Hard () , 238 , 535);
+        Play();
     }
+    public void Play (){
+        Greenfoot.playSound("VOL - Yasuo champion select (English).mp3");
+}
 }
