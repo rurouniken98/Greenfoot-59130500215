@@ -1,0 +1,31 @@
+                                                       **********Yasuo the Wanderer(The Game)**********
+                                                                       Rule. 
+-Throw the whirlwind(Dagger) to enemy
+-Don't let your life reduce by the enemy pass to your land (Edge behind you)
+-Don't let your life reduce by the enemy hurt you by touch.
+-Survive until the time up to win the game.
+-Try to throw by accuracy to challenge your maxcombo.
+-you will die if your life become zero and game will over.
+-LastBreath it has just 1 time per game and not calculate the combo ,so it use for save your life, please use it wisely.
+                                                                   Configuration.
+
+Arrows
+left = turn back(move left)
+right = turn right(move right)
+up = move up
+down = move down
+button
+space = throw whirldwind(Dagger)
+r = for LastBreath
+click the button for select.
+
+
+
+                                                                                             Please feel free and enjoy my game.
+                                                                                 
+
+
+
+
+
+                                                                                  direct by 59130500215    Mr.Dhanyarak Kusolvithee (Ken)               

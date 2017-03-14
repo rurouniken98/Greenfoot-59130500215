@@ -6,7 +6,7 @@ import greenfoot.*;  // (World, Actor, GreenfootImage, Greenfoot and MouseInfo)
  * @author (your name) 
  * @version (a version number or a date)
  */
-public class GameOver extends World
+public class GameOverMed extends World
 {
     
      
@@ -14,7 +14,7 @@ public class GameOver extends World
      * Constructor for objects of class GameOver.
      * 
      */
-    public GameOver()
+    public GameOverMed()
     {    
         // Create a new world with 600x400 cells with a cell size of 1x1 pixels.
         super(1013,569 , 1); 
@@ -22,8 +22,8 @@ public class GameOver extends World
     }
     public void act(){
         
-        showText("score :"+(Arena.score),(532),(321)) ;
-        showText("Max Combo : = "+(Arena.maxCombo),(532),(375)) ;
+        showText("score :"+(ArenaMed.score),(532),(321)) ;
+        showText("Max Combo : = "+(ArenaMed.maxCombo),(532),(375)) ;
     
 
 }
