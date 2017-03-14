@@ -17,17 +17,17 @@ public class asda extends Enemy
         move(-2);
         if(isAtEdge()){
          Arena.YasuoLife--;
+         ArenaMed.YasuoLife--;
+         ArenaHard.YasuoLife--;
          
-        // getWorld().addObject(new asda(),1040,Greenfoot.getRandomNumber(220)+90);
-         /*if(Arena.YasuoLife==0){
-            Greenfoot.setWorld(new Main());
-            Arena.score=0;
-        }*/
+       
         getWorld().removeObject(this);
     }
     else if(isTouching(Yasuo.class)){
         Arena.YasuoLife--;
-        //getWorld().addObject(new asda(),1040,Greenfoot.getRandomNumber(220)+90);
+        ArenaMed.YasuoLife--;
+        ArenaHard.YasuoLife--;
+        
         getWorld().removeObject(this);
     }
 }
